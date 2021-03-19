@@ -9,3 +9,7 @@ chmod +x install.sh
 sync
 shutdown -r now #that reboots your pc btw, so if you have any unsaved work, well...
 ```
+
+
+# Copyright
+The script was made by axtlos (https://github.com/axtloss) while the sound itself was made by zippy#8408. All rights reserved
