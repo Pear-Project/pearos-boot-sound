@@ -11,7 +11,7 @@ shutdown -r now #that reboots your pc btw, so if you have any unsaved work, well
 ```
 ## Installation steps (from release)
 ```sh
-sudo dpkg -i <path to your .deb file)
+sudo dpkg -i <path to your .deb file>
 sudo systemctl enable bootsound.service
 ```
 
