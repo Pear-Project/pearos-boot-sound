@@ -1,10 +1,11 @@
 [Unit]
-Description=Boot Sound
+Name=Play Startup Sound
 After=sound.target
+Before=mpd.service
 
 [Service]
-Type=simple
-ExecStart=/usr/bin/aplay /boot/boot-sound.wav
+Type=oneshot
+ExecStart=/usr/bin/mpv --volume=80 /boot/boot-sound.wav
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
