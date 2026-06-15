@@ -5,7 +5,7 @@ Before=mpd.service
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/mpv --volume=80 /boot/boot-sound.wav
+ExecStart=/usr/bin/mpv --volume=80 /usr/share/extras/boot-sound.wav
 
 [Install]
 WantedBy=default.target
